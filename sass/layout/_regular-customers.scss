@@ -1,0 +1,59 @@
+/*Постоянные клиенты*/
+
+.regular-customers {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .regular-customers-list-item {
+    display: flex;
+  }
+  
+  .regular-customers-list-item li {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .regular-customers-list-item li:not(:last-child) {
+    margin-right: 30px;
+  }
+  /*хз даний клас є і в портфоліо і в стандартах,
+ в п-5шт в с-20шт може винести в бейс ??? */  
+
+ .regular-customers-dr {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  transition: all 250ms linear;
+}
+.regular-customers-dr:hover,
+.regular-customers-dr:focus {
+  border-color: var(--accent-color);
+}
+.regular-customers-svg {
+  fill: #afb1b8;
+  transition: all 250ms linear;
+}
+.regular-customers-dr:hover .regular-customers-svg,
+.regular-customers-dr:focus .regular-customers-svg {
+  fill: var(--accent-color);
+}
+.regular-customers-link:focus .regular-customers-dr {
+  border-color: var(--accent-color);
+}
+.regular-customers-link:focus .regular-customers-svg {
+  fill: var(--accent-color);
+}

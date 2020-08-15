@@ -1,0 +1,457 @@
+/*Заголовок опиши */
+
+.maine-taitle {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    text-transform: uppercase;
+    color: var(--title-dark-theme-color);
+  }
+  
+  .button {
+    margin: auto;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 00px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: all 250ms linear;
+  }
+  .text-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--title-dark-theme-color);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: var(--accent-color-button);
+  }
+
+  /*Декоративні ефекти + Векторна графіка*/ 
+  .decorative-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)
+      ),
+      url(../imeges/Header-img/Headerimg.jpg);
+    max-width: 1600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+/*Модальне вікно*/
+.form {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+.modal-form {
+  position: relative;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  animation-name: modal-form-animation;
+  }
+.form-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+} 
+.form-input {
+padding-left: 41px;
+}
+.modal-form-list {
+  width: 448px; 
+}
+.modal-form-list:not(:last-child) {
+  margin-bottom: 28px;
+}
+.modal-form-list:last-child {
+  margin-bottom: 20px;
+}
+.modal-form-list input {
+  height: 40px;
+}
+.modal-form-list textarea {
+  height: 120px;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+.modal-form-list {
+  position: relative;
+}
+.form-svg {
+  position: absolute;
+  top: 12px;
+  left: 19px;
+  fill: #212121;
+  transition: 250ms linear;
+}
+.form-svg {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-comment {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  transition: 250ms linear;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+
+.input-modal {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-accept {
+  display: flex;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-mark {
+  margin-right: 8px;
+}
+.form-mark-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.btn-form {
+  padding: 10px 55px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.btn-close {
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 14px;
+  right: 14px;
+  border-color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-close:hover .close-svg,
+.btn-close:focus .close-svg {
+  fill: #2196F3;
+  transition: 250ms linear;
+}
+.close-svg {
+  background-size: contain;
+}
+.modal-form-list:hover .form-svg {
+  fill:  #2196F3;
+  box-sizing: 12px;
+}
+.modal-form-list:hover input,
+.modal-form-list:hover textarea {
+  border-color: #2196F3;
+}
+.textarea-comment {
+  padding: 15px;
+}
+.modal-form-list:hover label {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+}
+
+
+.form-input:focus + .form-label,
+.textarea-comment:focus + .label-comment,
+.form-input:not(:placeholder-shown) + .form-label,
+.textarea-comment:not(:placeholder-shown) + .label-comment {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+  box-sizing: 12px;
+}
+.form-input:focus ~ .form-svg {
+  fill:  #2196F3;
+}
+.is-hidden {
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/*Модальне вікно*/
+.form {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+.modal-form {
+  position: relative;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  animation-name: modal-form-animation;
+  }
+.form-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+} 
+.form-input {
+padding-left: 41px;
+}
+.modal-form-list {
+  width: 448px; 
+}
+.modal-form-list:not(:last-child) {
+  margin-bottom: 28px;
+}
+.modal-form-list:last-child {
+  margin-bottom: 20px;
+}
+.modal-form-list input {
+  height: 40px;
+}
+.modal-form-list textarea {
+  height: 120px;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+.modal-form-list {
+  position: relative;
+}
+.form-svg {
+  position: absolute;
+  top: 12px;
+  left: 19px;
+  fill: #212121;
+  transition: 250ms linear;
+}
+.form-svg {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-comment {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  transition: 250ms linear;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+
+.input-modal {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-accept {
+  display: flex;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-mark {
+  margin-right: 8px;
+}
+.form-mark-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.btn-form {
+  padding: 10px 55px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.btn-close {
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 14px;
+  right: 14px;
+  border-color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-close:hover .close-svg,
+.btn-close:focus .close-svg {
+  fill: #2196F3;
+  transition: 250ms linear;
+}
+.close-svg {
+  background-size: contain;
+}
+.modal-form-list:hover .form-svg {
+  fill:  #2196F3;
+  box-sizing: 12px;
+}
+.modal-form-list:hover input,
+.modal-form-list:hover textarea {
+  border-color: #2196F3;
+}
+.textarea-comment {
+  padding: 15px;
+}
+.modal-form-list:hover label {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+}
+
+
+.form-input:focus + .form-label,
+.textarea-comment:focus + .label-comment,
+.form-input:not(:placeholder-shown) + .form-label,
+.textarea-comment:not(:placeholder-shown) + .label-comment {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+  box-sizing: 12px;
+}
+.form-input:focus ~ .form-svg {
+  fill:  #2196F3;
+}
+.is-hidden {
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+

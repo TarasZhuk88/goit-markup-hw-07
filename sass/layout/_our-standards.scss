@@ -1,0 +1,67 @@
+/*Наші Стандарти+Чем мы занимаемся*/
+.satandards-items {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  /*padding-top: 27px;
+  padding-bottom: 27px;*/
+  /*background: rgba(47, 48, 58, 0.8);*/
+  color: var(--title-light-theme-color);
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--title-light-theme-color);
+}
+/*Декоративні ефекти + Векторна графіка*/
+.standards-br-svg {
+  display: inline-block;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bg-color);
+}
+.standards-br-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*наші стандарти*/
+
+.standards {
+  padding-top: 94px;
+  padding-bottom: 47px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-standards {
+  display: flex;
+}
+.standards-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.standards-img {
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}

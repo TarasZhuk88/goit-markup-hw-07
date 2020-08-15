@@ -1,0 +1,160 @@
+
+/*опис лого*/
+.header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .header-navigation {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #ececec;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .logo-web {
+    color: #2196f3;
+  }
+  
+  .header-logo:hover,
+  .header-logo:focus {
+    color: var(--accent-color);
+  }
+  
+  .navigation-list-link,
+  .address-tel,
+  .address-emaile {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-light-theme-color);
+  }
+  .address-tel,
+  .address-emaile {
+    display: flex;
+    align-items: center;
+  }
+  /*HOVER&FOCUS*/
+  .address-emaile,
+  .address-tel {
+    fill: #757575;
+  }
+  .address-emaile:hover,
+  .address-emaile:focus {
+    color: var(--accent-color);
+  }
+  
+  .address-emaile:hover .address-emaile-svg,
+  .address-emaile:focus .address-emaile-svg {
+    fill: var(--accent-color);
+  }
+  
+  .address-tel:hover,
+  .address-tel:focus {
+    color: var(--accent-color);
+  }
+  
+  .address-tel:hover .address-tel-svg,
+  .address-tel:focus .address-tel-svg {
+    fill: var(--accent-color);
+  }
+  
+  .address-item svg {
+    margin-right: 10px;
+  }
+  
+  .active {
+    color: var(--accent-color);
+  }
+  
+  .navigation-list-link:hover,
+  .navigation-list-link:focus {
+    color: var(--accent-color);
+  }
+  /*Декоративні ефекти + Векторна графіка*/
+  .navigation-line-studio::after {
+    display: block;
+    background-color: var(--accent-color);
+    width: 47px;
+    height: 4px;
+    content: "";
+    border-radius: 2px;
+    transition: all 250ms linear;
+  }
+  /*лого + навігація*/
+
+.navigation-list-link {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.navigation {
+  display: flex;
+  align-items: baseline;
+}
+.header-logo {
+  margin-right: 85px;
+}
+
+.navigation-list,
+.address-util,
+.address-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address-util {
+  display: flex;
+  align-items: center;
+}
+
+.address-item:not(:last-child) {
+  margin-right: 30px;
+}
+.address-item {
+  display: flex;
+  align-items: center;
+}
+
+.container-h1 {
+  flex-grow: 1;
+  display: block;
+  align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h1-slaider {
+  background: rgba(47, 48, 58, 0.8);
+}
+/*.main-img {
+  background-image: url(../imeges/Header-img/Headerimg.jpg);
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+}*/
+.container-h1 .maine-taitle {
+  margin-bottom: 30px;
+}
+.container-h1 .button {
+  margin-left: auto;
+  margin-right: auto;
+}

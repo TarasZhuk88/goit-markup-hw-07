@@ -1,0 +1,60 @@
+/*Чем мы занимаемся*/
+.projects-satandards-items {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--title-dark-theme-color);
+  }
+  /*Ефект чим займаємось студія*/
+.studio-effect-text-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.studio-effect-text {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 83px;
+  padding-right: 82px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+  opacity: 1;
+  /*transition: cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: all 250ms linear;
+}
+/*Чем мы занимаемся*/
+/*НЕ ОФОРМЛЕНИЙ ТЕКСТ І БЕКГРАУНД !!!!!!!!!!!!!! */
+.projects {
+  width: 1200px;
+  padding-top: 47px;
+  padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects .list {
+  display: flex;
+}
+
+.list-img:not(:last-child) /*ХЗ ТРЕ ДУМАТИ І ШУКАТИ
+ ТОЙ КЛАС_А ТОДІ ДО ДОМУ */  {
+  margin-right: 30px;
+}
+
+

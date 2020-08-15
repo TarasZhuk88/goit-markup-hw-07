@@ -1,0 +1,112 @@
+/*Наша Команда*/
+
+.manager-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-light-theme-color);
+  }
+  
+  .profesion {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-light-theme-color);
+  } 
+
+    /*Соціальні іконки*/ 
+    .solcial-link-item {
+      display: block;
+      width: 44px;
+      height: 44px;
+      padding: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 250ms linear;
+    }
+/*хз даний клас є і в портфоліо і в стандартах,
+ в п-5шт в с-20шт може винести в бейс ??? */  
+.solcial-icon-svg {
+  fill: #afb1b8;
+}
+/*Соціальні іконки описані з вершу от і ховер і фокус логічно*/ 
+.solcial-link-item:hover,
+.solcial-link-item:focus {
+  background-color: var(--accent-color);
+}
+.solcial-link-item:hover .solcial-icon-svg,
+.solcial-icon-svg:focus {
+  fill: var(--solcial-icon-white-color);
+}
+.solcial-link-item:focus .solcial-icon-svg {
+  fill: var(--solcial-icon-white-color);
+}
+
+/*Наша команда*/
+.our-team-section {
+  background: #f5f4fa;
+}
+
+.our-team {
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-team-list {
+  display: flex;
+}
+
+
+
+.our-team-list-item {
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-list-container {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.our-team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.manager-name {
+  margin-bottom: 10px;
+}
+.our-team-list-item img {
+  margin-bottom: 0px;
+}
+
+.social-list {
+  display: flex;
+}
+.social-list {
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/*Постоянные клиенты*/
+/*РОЗНІС*/
+
+
