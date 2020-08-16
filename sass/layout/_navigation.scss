@@ -1,7 +1,7 @@
 
 /*опис лого*/
 .header-logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -26,7 +26,7 @@
   
   .header-logo:hover,
   .header-logo:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .navigation-list-link,
@@ -37,7 +37,7 @@
     font-style: normal;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--text-light-theme-color);
+    color: $text-light-theme-color;
   }
   .address-tel,
   .address-emaile {
@@ -51,22 +51,22 @@
   }
   .address-emaile:hover,
   .address-emaile:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .address-emaile:hover .address-emaile-svg,
   .address-emaile:focus .address-emaile-svg {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .address-tel:hover,
   .address-tel:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .address-tel:hover .address-tel-svg,
   .address-tel:focus .address-tel-svg {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .address-item svg {
@@ -74,17 +74,17 @@
   }
   
   .active {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .navigation-list-link:hover,
   .navigation-list-link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   /*Декоративні ефекти + Векторна графіка*/
   .navigation-line-studio::after {
     display: block;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     width: 47px;
     height: 4px;
     content: "";

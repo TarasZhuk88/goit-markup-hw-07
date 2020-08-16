@@ -39,10 +39,6 @@
   .join-social-link {
     margin-right: 94px;
   }
-  /*ХОВЕР І ФОКУС НА ІКОНКИ СОЦ СТОРІНОК!!! .solcial-link-item:hover,
-  .solcial-link-item:focus {
-    background-color: var(--accent-color);
-  }*/
   .action {
     width: 145px;
     height: 16px;
@@ -113,7 +109,7 @@
     margin-right: 0px;
   }
   .join-social-link .solcial-icon-svg {
-    fill: var(--solcial-icon-white-color);
+    fill: $solcial-icon-white-color;
   }
   
   .footter-button {
@@ -131,13 +127,13 @@
   color: #2196f3;
 }
 .footer .logo {
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   color: #ffffff;
 }
 
 .footer .logo:hover,
 .footer .logo:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /*Адреса місця знаходження*/
@@ -147,12 +143,12 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--title-dark-theme-color);
+  color: $title-dark-theme-color;
 }
 
 .footer-adres:hover,
 .footer-adres:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /*заклик до дії (присоединяйтесь, Подпишитесь на рассылку ) */
@@ -162,12 +158,12 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-dark-theme-color);
+  color: $title-dark-theme-color;
 }
 
 .action:hover,
 .action:focus {
-  color: var(--accent-color);
+  color:$accent-color;
 }
 
 .footer .button {
@@ -181,11 +177,11 @@
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--title-dark-theme-color);
-  background: var(--accent-color);
+  color: $title-dark-theme-color;
+  background: $accent-color;
 }
 
 .footer .button:hover,
 .footer .button:focus {
-  background-color: var(--accent-color-button);
+  background-color: $accent-color-button;
 }

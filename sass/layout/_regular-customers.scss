@@ -41,7 +41,7 @@
 }
 .regular-customers-dr:hover,
 .regular-customers-dr:focus {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .regular-customers-svg {
   fill: #afb1b8;
@@ -49,11 +49,11 @@
 }
 .regular-customers-dr:hover .regular-customers-svg,
 .regular-customers-dr:focus .regular-customers-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .regular-customers-link:focus .regular-customers-dr {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .regular-customers-link:focus .regular-customers-svg {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }

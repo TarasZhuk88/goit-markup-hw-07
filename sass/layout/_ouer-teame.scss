@@ -6,7 +6,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
   }
   
   .profesion {
@@ -15,7 +15,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--text-light-theme-color);
+    color: $text-light-theme-color;
   } 
 
     /*Соціальні іконки*/ 
@@ -36,14 +36,14 @@
 /*Соціальні іконки описані з вершу от і ховер і фокус логічно*/ 
 .solcial-link-item:hover,
 .solcial-link-item:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .solcial-link-item:hover .solcial-icon-svg,
 .solcial-icon-svg:focus {
-  fill: var(--solcial-icon-white-color);
+  fill: $solcial-icon-white-color;
 }
 .solcial-link-item:focus .solcial-icon-svg {
-  fill: var(--solcial-icon-white-color);
+  fill: $solcial-icon-white-color;
 }
 
 /*Наша команда*/
