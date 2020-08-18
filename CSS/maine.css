@@ -354,8 +354,8 @@ html {
 
 body {
   background-color: #ffffff;
-  font-family: “Roboto”, sans-serif;
-  /*font-family: $main-font;*/
+  /*font-family: “Roboto”, sans-serif;*/
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #212121;
 }
@@ -386,29 +386,6 @@ textarea:focus {
   outline-color: #2196F3;
 }
 
-.link {
-  display: block;
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
-
-.logo {
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  transition: all 250ms linear;
-}
-
-:hover,
-:focus {
-  transition: all 250ms linear;
-}
-
 /*style margin, padding*/
 h1,
 h2,
@@ -432,17 +409,34 @@ img {
   display: block;
 }
 
+.link {
+  display: block;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  transition: all 250ms linear;
+}
+
+:hover,
+:focus {
+  transition: all 250ms linear;
+}
+
 .img {
-  /*border: none;*/
   display: block;
 }
 
 /*ТЕБЕ В ЗАГАЛЬНІ В БЕЙС */
-.effect-div {
-  position: relative;
-  overflow: hidden;
-}
-
 /*Модальне вікно*/
 .form {
   position: fixed;
@@ -1739,6 +1733,11 @@ img {
   color: #ffffff;
 }
 
+.effect-div {
+  position: relative;
+  overflow: hidden;
+}
+
 .effect-item-div:hover .portfolio-effect-text {
   opacity: 1;
   top: 0;
@@ -1777,7 +1776,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #212121;
 }
 
 .portfolio-text {

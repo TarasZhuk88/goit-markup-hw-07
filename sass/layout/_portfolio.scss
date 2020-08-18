@@ -104,6 +104,11 @@
   transition: all 250ms linear;
   color: $text-white-color;
 }
+.effect-div {
+  position: relative;
+  overflow: hidden;
+}
+
 
 .effect-item-div:hover .portfolio-effect-text {
   opacity: 1;
@@ -142,7 +147,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: $title-dark-theme-color;
+  color: $title-light-theme-color /*$title-dark-theme-color*/;
 }
 
 .portfolio-text {

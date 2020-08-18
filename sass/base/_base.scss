@@ -13,7 +13,7 @@ html {
   body {
     background-color: #ffffff;
     /*font-family: “Roboto”, sans-serif;*/
-    font-family: $main-font;
+    font-family:$main-font;
     font-size: 14px;
     color: #212121;
   }
@@ -41,6 +41,29 @@ html {
     outline-color: #2196F3;
   }
   
+    /*style margin, padding*/
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h5 {
+      margin: 0px;
+    }
+    
+    ul {
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    p {
+      margin: 0px;
+    }
+    
+    img {
+      display: block;
+    }
+
   .link {
     display: block;
     text-decoration: none;
@@ -63,37 +86,7 @@ html {
     transition: all 250ms linear;
   }
   
-  /*style margin, padding*/
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h5 {
-    margin: 0px;
-  }
-  
-  ul {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  p {
-    margin: 0px;
-  }
-  
-  img {
-    display: block;
-  }
-  
   .img {
-    /*border: none;*/
     display: block;
   }
   /*ТЕБЕ В ЗАГАЛЬНІ В БЕЙС */
-  .effect-div {
-    position: relative;
-    overflow: hidden;
-  }
-  
