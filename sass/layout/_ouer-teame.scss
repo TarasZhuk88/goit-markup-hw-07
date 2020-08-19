@@ -1,5 +1,4 @@
 /*Наша Команда*/
-
 .manager-name {
     font-weight: 500;
     font-size: 16px;
@@ -7,6 +6,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $title-light-theme-color;
+    margin-bottom: 10px;
   }
   
   .profesion {
@@ -27,45 +27,39 @@
       border-radius: 50%;
       cursor: pointer;
       transition: all 250ms linear;
+      &:hover,
+      &:focus {
+      background-color: $accent-color;
     }
+      &:hover .solcial-icon-svg,
+      &:focus {
+      fill: $solcial-icon-white-color;
+    }
+      &:focus .solcial-icon-svg {
+      fill: $solcial-icon-white-color;
+    }
+}
 /*хз даний клас є і в портфоліо і в стандартах,
  в п-5шт в с-20шт може винести в бейс ??? */  
 .solcial-icon-svg {
   fill: #afb1b8;
 }
-/*Соціальні іконки описані з вершу от і ховер і фокус логічно*/ 
-.solcial-link-item:hover,
-.solcial-link-item:focus {
-  background-color: $accent-color;
-}
-.solcial-link-item:hover .solcial-icon-svg,
-.solcial-icon-svg:focus {
-  fill: $solcial-icon-white-color;
-}
-.solcial-link-item:focus .solcial-icon-svg {
-  fill: $solcial-icon-white-color;
-}
-
 /*Наша команда*/
 .our-team-section {
   background: #f5f4fa;
+  .our-team {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .our-team-list {
+    display: flex;
+  }
 }
-
-.our-team {
-  width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.our-team-list {
-  display: flex;
-}
-
-
 
 .our-team-list-item {
   width: 270px;
@@ -73,6 +67,12 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  img {
+    margin-bottom: 0px;
+  }
 }
 .our-team-list-container {
   background-color: #ffffff;
@@ -80,33 +80,12 @@
   padding-top: 30px;
   padding-bottom: 24px;
 }
-
-.our-team-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-.manager-name {
-  margin-bottom: 10px;
-}
-.our-team-list-item img {
-  margin-bottom: 0px;
-}
-
 .social-list {
   display: flex;
-}
-.social-list {
   margin-top: 16px;
   margin-right: 32px;
   margin-left: 32px;
 }
-
-
-
 .social-list-item:not(:last-child) {
   margin-right: 10px;
 }
-
-/*Постоянные клиенты*/
-/*РОЗНІС*/
-
-

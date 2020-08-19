@@ -649,6 +649,404 @@ img {
   fill: #2196F3;
 }
 
+.is-hidden {
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*Модальне вікно*/
+/*.form {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}*/
+/*.modal-form {
+  position: relative;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  animation-name: modal-form-animation;
+  }*/
+/*.form-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+} */
+/*.form-input {
+padding-left: 41px;
+}
+.modal-form-list {
+  width: 448px; 
+}
+.modal-form-list:not(:last-child) {
+  margin-bottom: 28px;
+}
+.modal-form-list:last-child {
+  margin-bottom: 20px;
+}
+.modal-form-list input {
+  height: 40px;
+}
+.modal-form-list textarea {
+  height: 120px;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+.modal-form-list {
+  position: relative;
+}
+.form-svg {
+  position: absolute;
+  top: 12px;
+  left: 19px;
+  fill: #212121;
+  transition: 250ms linear;
+}
+.form-svg {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-comment {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  transition: 250ms linear;
+}
+.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+
+.input-modal {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-accept {
+  display: flex;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-mark {
+  margin-right: 8px;
+}
+.form-mark-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.btn-form {
+  padding: 10px 55px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.btn-close {
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 14px;
+  right: 14px;
+  border-color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-close:hover .close-svg,
+.btn-close:focus .close-svg {
+  fill: #2196F3;
+  transition: 250ms linear;
+}
+.close-svg {
+  background-size: contain;
+}
+.modal-form-list:hover .form-svg {
+  fill:  #2196F3;
+  box-sizing: 12px;
+}
+.modal-form-list:hover input,
+.modal-form-list:hover textarea {
+  border-color: #2196F3;
+}
+.textarea-comment {
+  padding: 15px;
+}
+.modal-form-list:hover label {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+}
+
+
+.form-input:focus + .form-label,
+.textarea-comment:focus + .label-comment,
+.form-input:not(:placeholder-shown) + .form-label,
+.textarea-comment:not(:placeholder-shown) + .label-comment {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+  box-sizing: 12px;
+}
+.form-input:focus ~ .form-svg {
+  fill:  #2196F3;
+}
+.is-hidden {
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+/*Модальне вікно*/
+/*.form {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}*/
+/*.modal-form {
+  position: relative;
+  padding: 40px;
+  width: 528px;
+  height: 581px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  animation-name: modal-form-animation;
+  }*/
+/*.form-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+} */
+/*.form-input {
+padding-left: 41px;
+}
+.modal-form-list {
+  width: 448px; 
+}
+.modal-form-list:not(:last-child) {
+  margin-bottom: 28px;
+}
+.modal-form-list:last-child {
+  margin-bottom: 20px;
+}
+.modal-form-list input {
+  height: 40px;
+}
+.modal-form-list textarea {
+  height: 120px;
+}*/
+/*.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}*/
+/*.modal-form-list {
+  position: relative;
+}*/
+/*.form-svg {
+  position: absolute;
+  top: 12px;
+  left: 19px;
+  fill: #212121;
+  transition: 250ms linear;
+}
+.form-svg {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+/*.label-comment {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  transition: 250ms linear;
+}*/
+/*.form-label {
+  position: absolute;
+  top: 12px;
+  left: 42px;
+  transition: 250ms linear;
+}
+
+.input-modal {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-accept {
+  display: flex;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.form-mark {
+  margin-right: 8px;
+}
+.form-mark-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.btn-form {
+  padding: 10px 55px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+.btn-close {
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 14px;
+  right: 14px;
+  border-color: #000000;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+/*.btn-close:hover .close-svg,
+.btn-close:focus .close-svg {
+  fill: #2196F3;
+  transition: 250ms linear;
+}
+.close-svg {
+  background-size: contain;
+}
+.modal-form-list:hover .form-svg {
+  fill:  #2196F3;
+  box-sizing: 12px;
+}
+.modal-form-list:hover input,
+.modal-form-list:hover textarea {
+  border-color: #2196F3;
+}
+.textarea-comment {
+  padding: 15px;
+}
+.modal-form-list:hover label {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+}*/
+/*.form-input:focus + .form-label,
+.textarea-comment:focus + .label-comment,
+.form-input:not(:placeholder-shown) + .form-label,
+.textarea-comment:not(:placeholder-shown) + .label-comment {
+  color: #2196F3;
+  top: -20px;
+  left: 16px;
+  box-sizing: 12px;
+}
+.form-input:focus ~ .form-svg {
+  fill:  #2196F3;
+}
+.is-hidden {
+  top: 200px;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}*/
 /*опис лого*/
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -657,6 +1055,11 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  margin-right: 85px;
+}
+
+.header-logo:hover, .header-logo:focus {
+  color: #2196f3;
 }
 
 .header-navigation {
@@ -675,11 +1078,6 @@ img {
   color: #2196f3;
 }
 
-.header-logo:hover,
-.header-logo:focus {
-  color: #2196f3;
-}
-
 .navigation-list-link,
 .address-tel,
 .address-emaile {
@@ -695,44 +1093,39 @@ img {
 .address-emaile {
   display: flex;
   align-items: center;
-}
-
-/*HOVER&FOCUS*/
-.address-emaile,
-.address-tel {
   fill: #757575;
 }
 
+/*HOVER&FOCUS*/
 .address-emaile:hover,
 .address-emaile:focus {
   color: #2196f3;
 }
 
-.address-emaile:hover .address-emaile-svg,
-.address-emaile:focus .address-emaile-svg {
+.address-emaile:hover svg,
+.address-emaile:focus svg {
   fill: #2196f3;
 }
 
+/* .address-emaile:hover .address-emaile-svg,
+  .address-emaile:focus .address-emaile-svg {
+    fill: $accent-color;
+  }*/
 .address-tel:hover,
 .address-tel:focus {
   color: #2196f3;
 }
 
-.address-tel:hover .address-tel-svg,
-.address-tel:focus .address-tel-svg {
+.address-tel:hover svg,
+.address-tel:focus svg {
   fill: #2196f3;
 }
 
-.address-item svg {
-  margin-right: 10px;
-}
-
+/*.address-tel:hover .address-tel-svg,
+  .address-tel:focus .address-tel-svg {
+    fill: $accent-color;
+  }*/
 .active {
-  color: #2196f3;
-}
-
-.navigation-list-link:hover,
-.navigation-list-link:focus {
   color: #2196f3;
 }
 
@@ -753,13 +1146,13 @@ img {
   padding-bottom: 34px;
 }
 
+.navigation-list-link:hover, .navigation-list-link:focus {
+  color: #2196f3;
+}
+
 .navigation {
   display: flex;
   align-items: baseline;
-}
-
-.header-logo {
-  margin-right: 85px;
 }
 
 .navigation-list,
@@ -773,18 +1166,27 @@ img {
   margin-right: 50px;
 }
 
-.address-util {
+.address-item {
   display: flex;
   align-items: center;
+}
+
+.address-item svg {
+  margin-right: 10px;
 }
 
 .address-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.address-item {
-  display: flex;
-  align-items: center;
+/*Заголовок опиши */
+.decorative-img {
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../imeges/Header-img/Headerimg.jpg);
+  max-width: 1600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .container-h1 {
@@ -800,27 +1202,8 @@ img {
   margin-right: auto;
 }
 
-.h1-slaider {
-  background: rgba(47, 48, 58, 0.8);
-}
-
-/*.main-img {
-  background-image: url(../imeges/Header-img/Headerimg.jpg);
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-}*/
 .container-h1 .maine-taitle {
   margin-bottom: 30px;
-}
-
-.container-h1 .button {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*Заголовок опиши */
-.maine-taitle {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -830,7 +1213,9 @@ img {
   color: #ffffff;
 }
 
-.button {
+.container-h1 .button {
+  margin-left: auto;
+  margin-right: auto;
   margin: auto;
   display: flex;
   width: 200px;
@@ -843,6 +1228,14 @@ img {
   cursor: pointer;
   border: none;
   transition: all 250ms linear;
+}
+
+.container-h1 .button:hover, .container-h1 .button:focus {
+  background-color: #7ec0f7;
+}
+
+.h1-slaider {
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .text-button {
@@ -858,461 +1251,6 @@ img {
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #7ec0f7;
-}
-
-/*Декоративні ефекти + Векторна графіка*/
-.decorative-img {
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../imeges/Header-img/Headerimg.jpg);
-  max-width: 1600px;
-  height: 600px;
-  background-repeat: no-repeat;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/*Модальне вікно*/
-.form {
-  position: fixed;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 100;
-}
-
-.modal-form {
-  position: relative;
-  padding: 40px;
-  width: 528px;
-  height: 581px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation-name: modal-form-animation;
-}
-
-.form-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 30px;
-}
-
-.form-input {
-  padding-left: 41px;
-}
-
-.modal-form-list {
-  width: 448px;
-}
-
-.modal-form-list:not(:last-child) {
-  margin-bottom: 28px;
-}
-
-.modal-form-list:last-child {
-  margin-bottom: 20px;
-}
-
-.modal-form-list input {
-  height: 40px;
-}
-
-.modal-form-list textarea {
-  height: 120px;
-}
-
-.form-label {
-  position: absolute;
-  top: 12px;
-  left: 42px;
-  transition: 250ms linear;
-}
-
-.modal-form-list {
-  position: relative;
-}
-
-.form-svg {
-  position: absolute;
-  top: 12px;
-  left: 19px;
-  fill: #212121;
-  transition: 250ms linear;
-}
-
-.form-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.label-comment {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  transition: 250ms linear;
-}
-
-.form-label {
-  position: absolute;
-  top: 12px;
-  left: 42px;
-  transition: 250ms linear;
-}
-
-.input-modal {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.form-accept {
-  display: flex;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.form-mark {
-  margin-right: 8px;
-}
-
-.form-mark-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.btn-form {
-  padding: 10px 55px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  margin-right: auto;
-  margin-left: auto;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.btn-close {
-  display: flex;
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  top: 14px;
-  right: 14px;
-  border-color: #000000;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  border-radius: 50px;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-close:hover .close-svg,
-.btn-close:focus .close-svg {
-  fill: #2196F3;
-  transition: 250ms linear;
-}
-
-.close-svg {
-  background-size: contain;
-}
-
-.modal-form-list:hover .form-svg {
-  fill: #2196F3;
-  box-sizing: 12px;
-}
-
-.modal-form-list:hover input,
-.modal-form-list:hover textarea {
-  border-color: #2196F3;
-}
-
-.textarea-comment {
-  padding: 15px;
-}
-
-.modal-form-list:hover label {
-  color: #2196F3;
-  top: -20px;
-  left: 16px;
-}
-
-.form-input:focus + .form-label,
-.textarea-comment:focus + .label-comment,
-.form-input:not(:placeholder-shown) + .form-label,
-.textarea-comment:not(:placeholder-shown) + .label-comment {
-  color: #2196F3;
-  top: -20px;
-  left: 16px;
-  box-sizing: 12px;
-}
-
-.form-input:focus ~ .form-svg {
-  fill: #2196F3;
-}
-
-.is-hidden {
-  top: 200px;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/*Модальне вікно*/
-.form {
-  position: fixed;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 100;
-}
-
-.modal-form {
-  position: relative;
-  padding: 40px;
-  width: 528px;
-  height: 581px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation-name: modal-form-animation;
-}
-
-.form-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 30px;
-}
-
-.form-input {
-  padding-left: 41px;
-}
-
-.modal-form-list {
-  width: 448px;
-}
-
-.modal-form-list:not(:last-child) {
-  margin-bottom: 28px;
-}
-
-.modal-form-list:last-child {
-  margin-bottom: 20px;
-}
-
-.modal-form-list input {
-  height: 40px;
-}
-
-.modal-form-list textarea {
-  height: 120px;
-}
-
-.form-label {
-  position: absolute;
-  top: 12px;
-  left: 42px;
-  transition: 250ms linear;
-}
-
-.modal-form-list {
-  position: relative;
-}
-
-.form-svg {
-  position: absolute;
-  top: 12px;
-  left: 19px;
-  fill: #212121;
-  transition: 250ms linear;
-}
-
-.form-svg {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.label-comment {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  transition: 250ms linear;
-}
-
-.form-label {
-  position: absolute;
-  top: 12px;
-  left: 42px;
-  transition: 250ms linear;
-}
-
-.input-modal {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.form-accept {
-  display: flex;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.form-mark {
-  margin-right: 8px;
-}
-
-.form-mark-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.btn-form {
-  padding: 10px 55px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  margin-right: auto;
-  margin-left: auto;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.btn-close {
-  display: flex;
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  top: 14px;
-  right: 14px;
-  border-color: #000000;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  border-radius: 50px;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-close:hover .close-svg,
-.btn-close:focus .close-svg {
-  fill: #2196F3;
-  transition: 250ms linear;
-}
-
-.close-svg {
-  background-size: contain;
-}
-
-.modal-form-list:hover .form-svg {
-  fill: #2196F3;
-  box-sizing: 12px;
-}
-
-.modal-form-list:hover input,
-.modal-form-list:hover textarea {
-  border-color: #2196F3;
-}
-
-.textarea-comment {
-  padding: 15px;
-}
-
-.modal-form-list:hover label {
-  color: #2196F3;
-  top: -20px;
-  left: 16px;
-}
-
-.form-input:focus + .form-label,
-.textarea-comment:focus + .label-comment,
-.form-input:not(:placeholder-shown) + .form-label,
-.textarea-comment:not(:placeholder-shown) + .label-comment {
-  color: #2196F3;
-  top: -20px;
-  left: 16px;
-  box-sizing: 12px;
-}
-
-.form-input:focus ~ .form-svg {
-  fill: #2196F3;
-}
-
-.is-hidden {
-  top: 200px;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Наші Стандарти+Чем мы занимаемся*/
@@ -1366,6 +1304,16 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  /*color: #757575;*/
+  width: 270px;
 }
 
 .list-standards {
@@ -1454,6 +1402,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .profesion {
@@ -1476,20 +1425,11 @@ img {
   transition: all 250ms linear;
 }
 
-/*хз даний клас є і в портфоліо і в стандартах,
- в п-5шт в с-20шт може винести в бейс ??? */
-.solcial-icon-svg {
-  fill: #afb1b8;
-}
-
-/*Соціальні іконки описані з вершу от і ховер і фокус логічно*/
-.solcial-link-item:hover,
-.solcial-link-item:focus {
+.solcial-link-item:hover, .solcial-link-item:focus {
   background-color: #2196f3;
 }
 
-.solcial-link-item:hover .solcial-icon-svg,
-.solcial-icon-svg:focus {
+.solcial-link-item:hover .solcial-icon-svg, .solcial-link-item:focus {
   fill: #ffffff;
 }
 
@@ -1497,12 +1437,18 @@ img {
   fill: #ffffff;
 }
 
+/*хз даний клас є і в портфоліо і в стандартах,
+ в п-5шт в с-20шт може винести в бейс ??? */
+.solcial-icon-svg {
+  fill: #afb1b8;
+}
+
 /*Наша команда*/
 .our-team-section {
   background: #f5f4fa;
 }
 
-.our-team {
+.our-team-section .our-team {
   width: 1200px;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1512,7 +1458,7 @@ img {
   margin-left: auto;
 }
 
-.our-team-list {
+.our-team-section .our-team-list {
   display: flex;
 }
 
@@ -1523,6 +1469,14 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.our-team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team-list-item img {
+  margin-bottom: 0px;
+}
+
 .our-team-list-container {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -1530,23 +1484,8 @@ img {
   padding-bottom: 24px;
 }
 
-.our-team-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.manager-name {
-  margin-bottom: 10px;
-}
-
-.our-team-list-item img {
-  margin-bottom: 0px;
-}
-
 .social-list {
   display: flex;
-}
-
-.social-list {
   margin-top: 16px;
   margin-right: 32px;
   margin-left: 32px;
@@ -1556,8 +1495,6 @@ img {
   margin-right: 10px;
 }
 
-/*Постоянные клиенты*/
-/*РОЗНІС*/
 /*Постоянные клиенты*/
 .regular-customers {
   width: 1200px;
@@ -1639,12 +1576,7 @@ img {
   margin-bottom: 50px;
 }
 
-.portfolio-list-btn {
-  display: flex;
-  justify-content: center;
-}
-
-.button-portfolio {
+.portfolio-button .button-portfolio {
   cursor: pointer;
   border: none;
   padding-top: 6px;
@@ -1653,6 +1585,11 @@ img {
   padding-left: 22px;
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+.portfolio-list-btn {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-list-item-btn:not(:last-child) {
@@ -1678,23 +1615,19 @@ img {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-works-text {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-}
-
-.portfolio-list-title {
-  margin-bottom: 4px;
-}
-
 .portfolio-works-item:nth-child(3n) {
   margin-right: 0px;
 }
 
 .portfolio-works-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.portfolio-works-text {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 /*Декоративні ефекти + Векторна графіка*/
@@ -1776,6 +1709,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
   color: #212121;
 }
 
@@ -1801,7 +1735,11 @@ img {
   background: #2f303a;
 }
 
-.footer-div-container {
+.footer-container .footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-container .footer-div-container {
   width: 1200px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1813,29 +1751,32 @@ img {
   display: flex;
 }
 
-.footer-div-address {
+.footer-container .footer-div-address {
   display: flex;
   flex-direction: column;
   margin-right: 69px;
 }
 
-.footer-logo {
-  margin-bottom: 20px;
-}
-
-.footer-adres {
+.footer-container .footer-adres {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   margin-bottom: 9px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.address-emaile-foote a {
+.footer-container .footer-adres:hover, .footer-container .footer-adres:focus {
+  color: #2196f3;
+}
+
+.footer-container a {
   margin-bottom: 9px;
 }
 
 .footer-social-list {
   display: flex;
-}
-
-.footer-social-list {
   margin-top: 20px;
 }
 
@@ -1843,10 +1784,20 @@ img {
   margin-right: 94px;
 }
 
+.join-social-link ul {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.join-social-link .solcial-icon-svg {
+  fill: #ffffff;
+}
+
 .action {
-  width: 145px;
-  height: 16px;
   display: block;
+  width: 219px;
+  height: 16px;
+  margin-bottom: 20px;
 }
 
 .sign-up {
@@ -1855,21 +1806,11 @@ img {
   margin-left: auto;
 }
 
-.action {
-  width: 219px;
-  height: 16px;
-  margin-bottom: 20px;
-}
-
 .imput {
   display: flex;
 }
 
-.imput-footer {
-  display: flex;
-}
-
-.footer-actions-input-text-emaile {
+.imput .footer-actions-input-text-emaile {
   width: 358px;
   height: 50px;
   left: 815px;
@@ -1885,7 +1826,7 @@ img {
   cursor: pointer;
 }
 
-.footter-button {
+.imput .footter-button {
   width: 200px;
   height: 50px;
   left: 1185px;
@@ -1893,90 +1834,12 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-
-/*footer svg*/
-.footer-icon-link {
-  display: inline-block;
-  height: 44px;
-  width: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.vidstan-icon-footer {
-  display: flex;
-}
-
-.join-social-link ul {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.join-social-link .solcial-icon-svg {
-  fill: #ffffff;
-}
-
-.footter-button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.plane-icon-send {
-  margin-left: 10px;
-}
-
-/*Footer*/
-.footer .logo-Web {
-  color: #2196f3;
-}
-
-.footer .logo {
-  font-family: "Raleway", sans-serif;
-  color: #ffffff;
-}
-
-.footer .logo:hover,
-.footer .logo:focus {
-  color: #2196f3;
-}
-
-/*Адреса місця знаходження*/
-.footer-adres {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.footer-adres:hover,
-.footer-adres:focus {
-  color: #2196f3;
-}
-
-/*заклик до дії (присоединяйтесь, Подпишитесь на рассылку ) */
-.action {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.action:hover,
-.action:focus {
-  color: #2196f3;
-}
-
-.footer .button {
+.imput .button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -1991,8 +1854,50 @@ img {
   background: #2196f3;
 }
 
-.footer .button:hover,
-.footer .button:focus {
+.imput .button:hover, .imput .button:focus {
   background-color: #7ec0f7;
+}
+
+.imput .plane-icon-send {
+  margin-left: 10px;
+}
+
+.footer-icon-link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer-container .logo-Web {
+  color: #2196f3;
+}
+
+.footer-container .logo {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+.footer-container .logo:hover, .footer-container .logofocus {
+  color: #2196f3;
+}
+
+/*заклик до дії (присоединяйтесь, Подпишитесь на рассылку ) */
+.action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.action:hover, .action:focus {
+  color: #2196f3;
 }
 /*# sourceMappingURL=maine.css.map */

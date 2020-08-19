@@ -37,7 +37,6 @@
   align-items: center;
   justify-content: center;
 }
-
 /*наші стандарти*/
 
 .standards {
@@ -48,6 +47,15 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $text-light-theme-color;
+  /*color: #757575;*/
+  width: 270px;
 }
 .list-standards {
   display: flex;
