@@ -9,6 +9,10 @@ html {
   *::after {
     box-sizing: inherit;
   }
+  *:hover,
+  *:focus {
+    transition: all 250ms linear;
+  }
   
   body {
     background-color: #ffffff;
@@ -18,8 +22,23 @@ html {
     color: #212121;
   }
  
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
   li {
     border: none;
+  }
+   /*style margin, padding*/
+   h1, h2, h3, h4, h5, h6 {
+     margin: 0px;
+   }
+
+  p {
+    margin: 0px;
+  }
+  img {
+    display: block;
   }
   img {
     border: none;
@@ -42,28 +61,6 @@ html {
     outline-color: #2196F3;
   }
   
-    /*style margin, padding*/
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h5 {
-      margin: 0px;
-    }
-    
-    ul {
-      margin: 0px;
-      padding: 0px;
-    }
-    
-    p {
-      margin: 0px;
-    }
-    
-    img {
-      display: block;
-    }
 
   .link {
     display: block;
@@ -82,12 +79,8 @@ html {
     color: #000000;
     transition: all 250ms linear;
   }
-  :hover,
-  :focus {
-    transition: all 250ms linear;
-  }
-  
+
   .img {
     display: block;
   }
-  /*ТЕБЕ В ЗАГАЛЬНІ В БЕЙС */
+ 

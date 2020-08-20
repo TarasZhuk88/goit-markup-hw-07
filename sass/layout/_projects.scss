@@ -45,15 +45,11 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  .list {
+    display: flex;
+  }
 }
 
-.projects .list {
-  display: flex;
-}
-
-.list-img:not(:last-child) /*ХЗ ТРЕ ДУМАТИ І ШУКАТИ
- ТОЙ КЛАС_А ТОДІ ДО ДОМУ */  {
+.list-img:not(:last-child) {
   margin-right: 30px;
 }
-
-

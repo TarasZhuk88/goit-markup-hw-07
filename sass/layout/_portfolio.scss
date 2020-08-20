@@ -1,5 +1,4 @@
 /*ПОРТФОЛІО*/
-
 .div-portfolio-section {
     width: 1176px;
     padding-top: 61px;
@@ -13,16 +12,7 @@
   
   .portfolio-button {
     margin-bottom: 50px;
-    .button-portfolio {
-      cursor: pointer;
-      border: none;
-      padding-top: 6px;
-      padding-right: 22px;
-      padding-bottom: 6px;
-      padding-left: 22px;
-      background: #f5f4fa;
-      border-radius: 4px;
-    }
+    
   }
   .portfolio-list-btn {
     display: flex;
@@ -64,7 +54,6 @@
     padding-left: 24px;
   }
   
-  
   /*Декоративні ефекти + Векторна графіка*/ 
   .navigation-line-portfolio::after {
     display: block;
@@ -105,7 +94,6 @@
   overflow: hidden;
 }
 
-
 .effect-item-div:hover .portfolio-effect-text {
   opacity: 1;
   top: 0;
@@ -129,13 +117,17 @@
   border-radius: 4px;
   color: $title-light-theme-color;
   transition: all 250ms linear;
-}
-
-.button-portfolio:hover,
-.button-portfolio:focus {
+  cursor: pointer;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  &:hover,
+  &:focus {
   color: $title-dark-theme-color;
   background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .portfolio-list-title {
@@ -146,7 +138,6 @@
   margin-bottom: 4px;
   color: $title-light-theme-color /*$title-dark-theme-color*/;
 }
-
 
 .portfolio-text {
   font-weight: 400;
